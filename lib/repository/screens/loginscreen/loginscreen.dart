@@ -73,17 +73,32 @@ class LoginScreen extends StatelessWidget {
                               fontsize: 14,
                               fontfamily: "bold",
                             ),
-                            SizedBox(),
-                            UiHelper.CustomImage(img: "image 9.png")
+                            SizedBox(width: 5),
+                            UiHelper.CustomImage(img: "image 9.png"),
                           ],
                         ),
                       ),
                     ),
+                    SizedBox(height: 8,),
+                    UiHelper.CustomText(
+                      text:
+                          "Access your saved addresses from Zomato automatically!",
+                      color: Color(0xFF9C9C9C),
+                      fontweight: FontWeight.normal,
+                      fontsize: 10,
+                    ),
+                     SizedBox(height: 30,),
+                     UiHelper.CustomText(
+                       text:
+                       "or login with phone number",
+                       color: Color(0xFF269237),
+                       fontweight: FontWeight.normal,
+                       fontsize: 14,),
                   ],
-                ),
               ),
             ),
           ),
+          )
         ],
       ),
     );
